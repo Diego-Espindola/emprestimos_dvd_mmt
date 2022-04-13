@@ -1,4 +1,7 @@
-public class Genero{
-    private string descricao;
+package classes;
+
+public class Genero {
+
+    private String descricao;
 
 }
