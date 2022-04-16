@@ -1,3 +1,5 @@
+package classes;
+
 public class CadastroDVD{
 
     public void  inclui(Amigo amigo){

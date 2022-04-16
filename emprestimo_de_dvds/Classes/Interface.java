@@ -1,3 +1,5 @@
+package classes;
+
 public class Interface {
 
     public void imprime(String a){
