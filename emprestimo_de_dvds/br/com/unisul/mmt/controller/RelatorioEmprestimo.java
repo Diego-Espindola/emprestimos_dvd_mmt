@@ -1,4 +1,4 @@
-package classes.emprestimo;
+package br.com.unisul.mmt.controller;
 
 import java.util.List;
 

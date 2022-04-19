@@ -1,14 +1,15 @@
-package classes.emprestimo;
+package br.com.unisul.mmt.controller;
 
-import classes.Amigo;
-import classes.DVD;
+import br.com.unisul.mmt.model.Amigo;
+import br.com.unisul.mmt.model.DVD;
+import br.com.unisul.mmt.model.Emprestimo;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class RegistroEmprestimo {
-    private List<Emprestimo> emprestimos;
-    private List<RelatorioEmprestimo> relatorioEmprestimos;
+    public List<Emprestimo> emprestimos;
+    private RelatorioEmprestimo relatorioEmprestimo;
 
     public RegistroEmprestimo() {
         this.emprestimos = new ArrayList<>();
@@ -38,11 +39,11 @@ public class RegistroEmprestimo {
         this.emprestimos = emprestimos;
     }
 
-    public List<RelatorioEmprestimo> getRelatorioEmprestimos() {
-        return relatorioEmprestimos;
+    public RelatorioEmprestimo getRelatorioEmprestimo() {
+        return relatorioEmprestimo;
     }
 
-    public void setRelatorioEmprestimos(List<RelatorioEmprestimo> relatorioEmprestimos) {
-        this.relatorioEmprestimos = relatorioEmprestimos;
+    public void setRelatorioEmprestimo(RelatorioEmprestimo relatorioEmprestimos) {
+        this.relatorioEmprestimo = relatorioEmprestimos;
     }
 }

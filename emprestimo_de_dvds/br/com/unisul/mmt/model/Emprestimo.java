@@ -1,32 +1,13 @@
-package classes.emprestimo;
-
-import classes.Amigo;
-import classes.DVD;
+package br.com.unisul.mmt.model;
 
 import java.util.Date;
 
 public class Emprestimo {
 
-    private Amigo amigo;
-    private DVD dvd;
     private Date dataEmprestimo;
     private Date dataDevolver;
-
-    public Amigo getAmigo() {
-        return amigo;
-    }
-
-    public void setAmigo(Amigo amigo) {
-        this.amigo = amigo;
-    }
-
-    public DVD getDvd() {
-        return dvd;
-    }
-
-    public void setDvd(DVD dvd) {
-        this.dvd = dvd;
-    }
+    private Amigo amigo;
+    private DVD dvd;
 
     public Date getDataEmprestimo() {
         return dataEmprestimo;
@@ -42,5 +23,21 @@ public class Emprestimo {
 
     public void setDataDevolver(Date dataDevolver) {
         this.dataDevolver = dataDevolver;
+    }
+
+    public Amigo getAmigo() {
+        return amigo;
+    }
+
+    public void setAmigo(Amigo amigo) {
+        this.amigo = amigo;
+    }
+
+    public DVD getDvd() {
+        return dvd;
+    }
+
+    public void setDvd(DVD dvd) {
+        this.dvd = dvd;
     }
 }
